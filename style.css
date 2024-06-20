@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.first-hed{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+  margin-right: 240px;
+}
+
+li{
+  margin-right: 32px;
+}
+
+li a{
+  color: black;
+}
+
+.first-hed h1{
+  margin-left: 240px;
+  margin-top: 140px;
+  font-weight: normal;
+}
+
+.picture{
+  margin: 120px 20px 0 20px;
+}
+
+
+/* main */
+
+h2{
+  text-align: center;
+  margin-top: 32px;
+}
+
+section-1 p{
+  padding: 20px 160px;
+}
+
+.pictures{
+  margin: 32px 200px;
+}
+
+.pictures-1{
+  margin: 16px 8px;
+}
+
+.careers{
+  padding: 60px 160px;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.career{
+  padding: 20px ;
+}
+
+.container{
+  display: flex;
+  justify-content: flex-start;
+}
+
+hr{
+  margin: 0 20px;
+}
+
+.forms{
+  margin-left:200px;
+  justify-content: flex-start;
+}
+
+
+.forms p{
+  margin: 32px;
+}
+
+input{
+  margin-left: 80px;
+}
+
+textarea{
+  margin-left: 50px;
+}
+
+.send{
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+/* @media (min-width: 400px){
+  .pictures{
+    width: calc((100% - 80px) / 3);
+  }
+} */
